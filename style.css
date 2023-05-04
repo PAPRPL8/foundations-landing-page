@@ -1,0 +1,155 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.margin {
+    padding: 0px 10vw;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-flex {
+    display: flex;
+    margin: 5px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+    gap: 24px;
+    align-items: center;
+}
+
+.hero-flex-header {
+    text-align: left;
+}
+
+.hero-flex-header > button {
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-flex-header-title {
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder; 
+}
+
+.content {
+    margin-top: 24px;
+    margin-bottom: 128px;;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-container-li {
+    justify-self: center;
+    text-align: center;
+    width: 128px;
+    height: 128px;
+}
+
+.item {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width:100%;
+    height: 100%;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 24px 64px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.signup-header {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px;
+}
+
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.button-signup {
+    border: 2px solid #ddd;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    padding: 0px;
+    gap: 20px;
+}
+
+a {
+/* this removes the line under the links */
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
